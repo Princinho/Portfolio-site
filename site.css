@@ -1,0 +1,47 @@
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-dark: #1E1E1E;
+    --clr-darker: #171717;
+    --clr-darkest: #101010;
+    --clr-accent: #DF403D;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--clr-dark);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    margin: 0;
+}
+
+
+.intro__img{
+    width: 250px;
+}
