@@ -40,12 +40,54 @@ body{
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 1em;
 }
 
 
+img{
+    max-width: 400px;
+}
+.section__intro{
+    display: grid;
+    grid-template: fit-content 1fr 1fr 1fr/50% 50%;
+    grid-template-areas: 
+    "name name"
+    "title title"
+    "photo about"
+    "photo about";
+}
 .intro__img{
-    width: 250px;
+    width: 180px;
+    object-fit: cover;
+    grid-area: photo;
 }
 .section__intro h1{
+    font-size: var(--fs-h3);
+    color: var(--clr-accent);
+    grid-area: name;
+}
+.title{
     font-size: var(--fs-h1);
+    margin: 0;
+    font-weight: bold;
+    color: var(--clr-light);
+    grid-area: title;
+}
+.section__intro__about{
+    grid-area:about;
+    align-self: center;
+}
+.services{
+    padding-top: 2em;
+    background-color: var(--clr-darker);
+}
+.service{
+    max-width: 80%;
+    background:var(--clr-dark);
+    margin: 0 auto;
+}
+.service__img{
+    max-width: 30%;
 }
