@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Css3</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="none" stroke="#f34242" stroke-linecap="round" stroke-linejoin="round"
+  stroke-width="3" d="M6 2h52l-4 54-22 6-22-6L6 2z"></path>
+  <path data-name="layer1" fill="none" stroke="#f34242" stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="3" d="M19.7 38.2l.6 5.8L32 48l12-4 .9-14H19l27-14H18"></path>
+</svg>
